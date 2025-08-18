@@ -9,7 +9,7 @@ const Hero = () => {
           {/* Text Content */}
           <div className="space-y-6 animate-fade-in-up">
             <h1 className="text-5xl lg:text-7xl font-light hero-text leading-tight">
-              Tanmay Nihal
+              Ansh
               <br />
               <span className="font-normal">Harwani</span>
             </h1>
