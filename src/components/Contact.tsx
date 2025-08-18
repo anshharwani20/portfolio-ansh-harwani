@@ -7,26 +7,20 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
-      value: "tanmay22@bu.edu",
-      href: "mailto:tanmay22@bu.edu"
+      value: "harwaniansh@gmail.com",
+      href: "mailto:harwaniansh@gmail.com"
     },
     {
       icon: <Phone className="w-6 h-6" />,
       label: "Phone",
-      value: "8572726640",
-      href: "tel:8572726640"
+      value: "+91-7987424118",
+      href: "tel:+917987424118"
     },
     {
       icon: <Linkedin className="w-6 h-6" />,
       label: "LinkedIn",
       value: "LinkedIn",
-      href: "https://www.linkedin.com/in/tanmay-harwani/"
-    },
-    {
-      icon: <Github className="w-6 h-6" />,
-      label: "GitHub", 
-      value: "GitHub",
-      href: "https://github.com/Tanmay-Harwani"
+      href: "https://www.linkedin.com/in/ansh-harwani"
     }
   ];
 
@@ -39,12 +33,12 @@ const Contact = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-primary-glow mx-auto mb-6"></div>
           <p className="subtitle-text text-lg max-w-2xl mx-auto">
-            Ready to collaborate on data science projects or discuss opportunities? Let's connect!
+            Ready to collaborate on product management projects or discuss opportunities? Let's connect!
           </p>
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+          <div className="grid md:grid-cols-3 gap-6 mb-12">
             {contactInfo.map((info, index) => (
               <Card 
                 key={index} 
@@ -94,13 +88,13 @@ const Contact = () => {
                 Let's Work Together
               </h3>
               <p className="body-text text-lg mb-6 max-w-2xl mx-auto">
-                Open to collaborating on innovative projects and exploring opportunities in AI, Data Science, and Analytics that drive real world impact.
+                Open to collaborating on innovative projects and exploring opportunities in Product Management, AI, and Business Strategy that drive real world impact.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button 
                   size="lg" 
                   className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium px-8 py-3 rounded-lg transition-all duration-300 hover:scale-105 glow"
-                  onClick={() => window.open('mailto:tanmay22@bu.edu', '_blank')}
+                  onClick={() => window.open('mailto:harwaniansh@gmail.com', '_blank')}
                 >
                   <Mail className="mr-2" size={20} />
                   Send Email
@@ -109,7 +103,7 @@ const Contact = () => {
                   variant="outline" 
                   size="lg"
                   className="border-primary text-primary hover:bg-primary hover:text-primary-foreground font-medium px-8 py-3 rounded-lg transition-all duration-300 hover:scale-105"
-                  onClick={() => window.open('https://drive.google.com/file/d/1ETWYklYI7XJC_tow69r9053lkviqcJUS/view?usp=sharing', '_blank')}
+                  onClick={() => window.open('#', '_blank')}
                 >
                   <Download className="mr-2" size={20} />
                   Download Resume

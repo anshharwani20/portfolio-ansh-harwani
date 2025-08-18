@@ -4,64 +4,42 @@ import { Badge } from "@/components/ui/badge";
 const About = () => {
   const experience = [
     {
-      title: "Data Science Consultant",
-      company: "Reliance Retail (Zivame)",
-      period: "May 2023 – Dec 2023",
+      title: "Product Management Intern",
+      company: "OneAssist Consumer Solutions | Certificate",
+      period: "May 2025 - July 2025",
       achievements: [
-        "Proposed and integrated AWS Personalize recommenders to enhance engagement and boost sales through data-driven insights",
-        "Cleaned and transformed 800,000+ rows from Redshift and Amazon S3, resolving data quality issues for relevant personalization",
-        "Streamlined batch pipelines with Airflow and deployed four recommenders models, increasing recommendation precision",
-        "Delivered strategies to stakeholders, aligning ML outputs with business goals and influencing product roadmap decisions",
-        "Conducted A/B tests to validate recommender performance, achieving statistical significance with p<0.05 across user segments"
+        "Analyzed 5+ months of chatbot data across various categories to identify manual transfer causes",
+        "Enhanced overall CSAT by 10% and successfully reduced manual transfer rate by 5% within 10 weeks",
+        "Proposed scalable GenAI solutions expected to resolve 75% of current chatbot failure and escalation triggers",
+        "Evaluated competitor chatbots using the BUC analysis framework to explore advanced strategies for revenue generation"
       ]
     },
     {
-      title: "Data and Planning Analyst Intern",
-      company: "Reliance Retail (Zivame)",
-      period: "Feb 2023 – Apr 2023",
+      title: "Product Management Intern",
+      company: "Nani's Bilona Ghee | Certificate",
+      period: "Dec 2024 - Mar 2025",
       achievements: [
-        "Designed, developed, and maintained user friendly reports and dashboards to support key decision making through actionable insights",
-        "Consolidated multi-source datasets and pre-processed them into analysis-ready formats to enable faster and reliable reporting",
-        "Automated recurring sales reports in R, cutting manual prep time by 65% and streamlining daily workflows for the planning team"
-      ]
-    },
-    {
-      title: "Digital Relationship Manager",
-      company: "Kristal.AI",
-      period: "Oct 2021 – Mar 2022",
-      achievements: [
-        "Fostered & maintained relationships with 20+ clients, delivering personalized support and resolving queries ensuring high NPS",
-        "Proposed and implemented Macros for repetitive queries, reducing response time by 30% and streamlining client service processes",
-        "Automated client communication pipelines, ensuring timely touchpoints that improved engagement and enhanced retention"
+        "Authored PRDs for chatbot features, ensuring smooth developer handoffs, reducing implementation time by 45%",
+        "Conducted research with 200+ customers, optimizing chatbot user completion by 25%",
+        "Analyzed purchase patterns, launched a personalized subscription model, improving user engagement and increasing retention by 25%",
+        "Performed competitive analysis on 10+ brands, identifying key differentiators to enhance product positioning"
       ]
     }
   ];
 
   const education = [
     {
-      degree: "Master of Science in Applied Data Analytics",
-      school: "Boston University, United States",
-      period: "Dec 2025",
-      gpa: "3.9",
+      degree: "Integrated B.Tech in Information Technology and MBA",
+      school: "Indian Institute of Information Technology and Management, Gwalior",
+      period: "May 2026",
+      gpa: "Madhya Pradesh, India",
       courses: [
-        "Data Science with Python",
-        "Foundations of Machine Learning",
-        "Web mining & Graph Analytics",
-        "Information structures with Python",
-        "Analysis of Algorithms",
-        "Foundations of Analytics & Data Visualization",
-        "Data Structures & Algorithms"
-      ]
-    },
-    {
-      degree: "Bachelor of Commerce (Finance and Investments)",
-      school: "Christ University, India",
-      period: "May 2021",
-      gpa: "3.73",
-      courses: [
-        "Introduction to Database Management Systems",
-        "Data Analytics using R programming",
-        "Business Mathematics"
+        "Product Management",
+        "Business Strategy", 
+        "Information Technology",
+        "Data Analytics",
+        "Agile Methodologies",
+        "Market Research"
       ]
     }
   ];
@@ -82,16 +60,16 @@ const About = () => {
             <CardContent className="p-8">
               <div className="body-text leading-relaxed space-y-4 text-justify">
                 <p>
-                  Hi, I am Tanmay Harwani, a Master's student in Applied Data Analytics at Boston University. My journey into data science began with a fascination for how people interact with products and how data can drive smarter, more impactful decisions.
+                  I am Ansh Harwani, a Product enthusiast pursuing an Integrated BTech in Information Technology and MBA at IIITM Gwalior. My journey in Product Management began with a curiosity for how technology, design, and business come together to solve real-world problems. To sharpen my product sense, I explored product teardowns, built side projects, and wrote PRDs, which gave me a strong foundation before entering the professional space.
                 </p>
                 <p>
-                  Previously, I worked as a Data Science Consultant at Reliance Retail, where I built recommenders, end to end analytics and machine learning solutions that streamlined reporting, enhanced decision making, and supported business growth. My projects have included interactive dashboards, customer behavior analysis, and AI powered tools, all focused on turning insights into measurable results.
+                  This foundation gave me the confidence to step into professional roles. I have Product Management internship experience at OneAssist and Nani's Bilona Ghee, where I contributed to digital products in dynamic, fast-paced environments. Working within complete Agile systems, I gained exposure to end-to-end product development, from discovery and research to prototyping, roadmapping, and iteration.
                 </p>
                 <p>
-                  I am passionate about roles at the intersection of product growth and data science, where I can combine technical skills in Python, SQL, and analytics with business strategy to help products grow, engage, and retain users.
+                  Over time, I've developed a strong focus at the intersection of Product, strategy, and data. I enjoy applying user empathy, market research, and prioritization frameworks to design scalable solutions that deliver business outcomes while keeping user needs at the center.
                 </p>
                 <p>
-                  Outside of work, I enjoy exploring new AI tools, experimenting with product analytics frameworks, and building side projects that connect technology with real world outcomes. I am also learning speed cubing, improving my typing speed (currently 88 wpm), staying active through fitness, and playing table tennis.
+                  Beyond work, I stay active through basketball and fitness, and I enjoy exploring emerging tools, frameworks, and AI-driven solutions that connect technology with everyday life.
                 </p>
               </div>
             </CardContent>

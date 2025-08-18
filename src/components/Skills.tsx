@@ -7,42 +7,22 @@ const Skills = () => {
     {
       icon: <Code className="w-6 h-6" />,
       title: "Programming Languages",
-      skills: ["Python", "R", "SQL", "Advanced Excel (VLOOKUP, Pivot Table)"]
-    },
-    {
-      icon: <Brain className="w-6 h-6" />,
-      title: "Libraries & Frameworks",
-      skills: ["Pandas", "Numpy", "scikit-learn", "TensorFlow", "LangChain", "CrewAI", "Matplotlib", "Seaborn", "Pytorch", "Xgboost", "Spacy"]
+      skills: ["SQL", "Python", "C/C++"]
     },
     {
       icon: <Database className="w-6 h-6" />,
-      title: "Tools & Platforms",
-      skills: ["Airflow", "Git", "Jupyter", "Cursor", "REST APIs"]
+      title: "Tools and Platforms",
+      skills: ["Jira", "Canva", "Google Analytics", "GitHub", "PowerBI", "Amazon QuickSight", "Lovable AI"]
     },
     {
-      icon: <Cloud className="w-6 h-6" />,
-      title: "Cloud & Databases",
-      skills: ["AWS (S3, Personalize)", "Snowflake", "Redshift", "MongoDB", "Athena"]
-    },
-    {
-      icon: <BarChart className="w-6 h-6" />,
-      title: "Data Science Skills",
-      skills: ["Supervised, Unsupervised ML", "Feature Selection", "Regularization", "Prompt Engineering", "Embeddings"]
-    },
-    {
-      icon: <BarChart className="w-6 h-6" />,
-      title: "Statistical Methods",
-      skills: ["A/B Testing", "Hypothesis Testing", "Statistical Significance", "Experimental Design", "Causal Inference"]
-    },
-    {
-      icon: <BarChart className="w-6 h-6" />,
-      title: "Visualization",
-      skills: ["Tableau", "Power BI", "Google Data Studio", "Excel", "PowerPoint", "Streamlit"]
+      icon: <Brain className="w-6 h-6" />,
+      title: "Product Skills",
+      skills: ["Prioritization", "Prototyping", "Roadmapping", "Agile & Scrum", "User Experience", "Market Research Analysis"]
     },
     {
       icon: <Users className="w-6 h-6" />,
       title: "Soft Skills",
-      skills: ["Communication", "Teamwork", "Collaboration", "Adaptability", "Problem Solving"]
+      skills: ["Stakeholder Management", "Data-Driven Decision Making", "User Empathy", "Problem Solving"]
     }
   ];
 
@@ -55,7 +35,7 @@ const Skills = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-primary-glow mx-auto mb-6"></div>
           <p className="subtitle-text text-lg max-w-2xl mx-auto">
-            A comprehensive toolkit for data science, machine learning, and business analytics
+            A comprehensive toolkit for product management, strategic thinking, and data-driven decision making
           </p>
         </div>
 

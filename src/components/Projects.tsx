@@ -6,25 +6,18 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "AI Chore Assistant",
-      description: "Engineered an AI assistant using LangChain and Gemini to process chore schedules from PDFs and answer user queries via RAG. Deployed a Streamlit Cloud app with date-based task querying and dynamic schedule responses. Integrated contextual date prompts to improve response relevance and user experience. Upgrading to a Crew AI based multi agent system with autonomous agents for task assignment, conflict resolution, and reminders.",
-      technologies: ["LangChain", "Gemini", "RAG", "CrewAI", "Streamlit"],
-      highlights: ["PDF processing", "Dynamic schedules", "Multi-agent system", "Task automation"],
-      liveDemo: "https://ai-chore-assistant.streamlit.app/"
+      title: "Mental Wellness Tracker for Professionals",
+      description: "Designed a wellness app prototype, informed by 10+ user interviews on emotional health and motivation. Shaped 5+ features like lock-screen widgets, streak rewards and adaptive check-ins to enhance engagement. Led surveys and persona building to capture user aspirations and built features by combining insights and metrics.",
+      technologies: ["User Research", "Prototyping", "Feature Design"],
+      highlights: ["10+ user interviews", "5+ features designed", "Engagement-focused", "User-centered design"],
+      liveDemo: "Apr 2025"
     },
     {
-      title: "Genre Prediction from Lyrics",
-      description: "Built a genre classification model using TF-IDF and Naive Bayes, achieving 78% accuracy across 10 music genres. Applied NLP techniques including lemmatization and stopword removal to improve prediction performance. Deployed a real time Streamlit app to showcase genre predictions based on input lyrics.",
-      technologies: ["NLP", "Naive Bayes", "Streamlit"],
-      highlights: ["78% accuracy", "Real-time predictions", "NLP preprocessing", "Interactive app"],
-      liveDemo: "https://genre-prediction-smart-tool.streamlit.app/"
-    },
-    {
-      title: "Crypto News Mood Predictor",
-      description: "Created a sentiment analysis tool using FinBERT, classifying 1000+ crypto news articles into bullish/neutral/bearish. Built real time ingestion via various News APIs and deployed an interactive Streamlit dashboard for sentiment visualization. Tuned model pipeline to improve prediction performance and reduce latency, enabling a smoother user experience.",
-      technologies: ["Transformers", "Sentiment Analysis", "Streamlit"],
-      highlights: ["1000+ articles", "Real-time analysis", "Sentiment visualization", "Performance optimization"],
-      liveDemo: "https://crypto-news-sentiment-analysis-tool.streamlit.app/"
+      title: "Recipe Cup App Teardown | Design & Product Enhancement",
+      description: "Conducted survey with 50+ millennials, designed a new onboarding flow, reducing drop-off rates. Created subscription meal plans and categorized menus, improving navigation and increasing retention by 25%. Integrated personalized features, driving user engagement and increasing click-through rates by 40%.",
+      technologies: ["User Research", "Product Analysis", "UX Design"],
+      highlights: ["50+ user surveys", "25% retention increase", "40% CTR improvement", "Personalization"],
+      liveDemo: "Oct 2024"
     }
   ];
 
@@ -33,11 +26,11 @@ const Projects = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-light hero-text mb-4">
-            Academic Projects
+            Projects
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-primary-glow mx-auto mb-6"></div>
           <p className="subtitle-text text-lg max-w-2xl mx-auto">
-            Showcasing data science and machine learning projects with real-world applications
+            Showcasing product management and design projects with real-world impact
           </p>
         </div>
 
@@ -88,25 +81,9 @@ const Projects = () => {
                   <Button 
                     variant="outline" 
                     className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                    onClick={() => {
-                      const githubLinks = {
-                        "AI Chore Assistant": "https://github.com/Tanmay-Harwani/AI-Chore-Assistant",
-                        "Genre Prediction from Lyrics": "https://github.com/Tanmay-Harwani/Genre-Prediction-Smart-Tool",
-                        "Crypto News Mood Predictor": "https://github.com/Tanmay-Harwani/Crypto-News-Sentiment-Analysis-Tool"
-                      };
-                      window.open(githubLinks[project.title], '_blank');
-                    }}
-                  >
-                    <Github className="mr-2" size={16} />
-                    View Code
-                  </Button>
-                  <Button 
-                    variant="outline" 
-                    className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                    onClick={() => window.open(project.liveDemo, '_blank')}
                   >
                     <ExternalLink className="mr-2" size={16} />
-                    Live Demo
+                    Completed {project.liveDemo}
                   </Button>
                 </div>
               </CardContent>

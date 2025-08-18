@@ -16,7 +16,7 @@ const Hero = () => {
             
             <div className="space-y-2">
               <p className="text-xl lg:text-2xl text-primary font-medium">
-                Data Science | AI | Machine Learning
+                Product Management | AI | Business Strategy
               </p>
             </div>
 
@@ -25,7 +25,7 @@ const Hero = () => {
               <Button 
                 size="lg" 
                 className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium px-8 py-3 rounded-lg transition-all duration-300 hover:scale-105 glow"
-                onClick={() => window.open('https://github.com/Tanmay-Harwani', '_blank')}
+                onClick={() => window.open('https://www.linkedin.com/in/ansh-harwani', '_blank')}
               >
                 <Eye className="mr-2" size={20} />
                 View My Work
@@ -34,7 +34,7 @@ const Hero = () => {
                 variant="outline" 
                 size="lg"
                 className="border-primary text-primary hover:bg-primary hover:text-primary-foreground font-medium px-8 py-3 rounded-lg transition-all duration-300 hover:scale-105"
-                onClick={() => window.open('https://drive.google.com/file/d/1ETWYklYI7XJC_tow69r9053lkviqcJUS/view?usp=sharing', '_blank')}
+                onClick={() => window.open('#', '_blank')}
               >
                 <Download className="mr-2" size={20} />
                 Download Resume
@@ -44,14 +44,14 @@ const Hero = () => {
             {/* Contact Info */}
             <div className="flex flex-wrap gap-6 pt-4">
               <a 
-                href="mailto:tanmay22@bu.edu" 
+                href="mailto:harwaniansh@gmail.com" 
                 className="flex items-center gap-2 body-text hover:text-primary transition-colors duration-300"
               >
                 <span className="w-2 h-2 bg-primary rounded-full"></span>
                 Email
               </a>
               <a 
-                href="https://www.linkedin.com/in/tanmay-harwani/" 
+                href="https://www.linkedin.com/in/ansh-harwani" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 body-text hover:text-primary transition-colors duration-300"
@@ -60,13 +60,11 @@ const Hero = () => {
                 LinkedIn
               </a>
               <a 
-                href="https://github.com/Tanmay-Harwani" 
-                target="_blank" 
-                rel="noopener noreferrer"
+                href="tel:+917987424118" 
                 className="flex items-center gap-2 body-text hover:text-primary transition-colors duration-300"
               >
                 <span className="w-2 h-2 bg-primary rounded-full"></span>
-                GitHub
+                Contact
               </a>
             </div>
           </div>
@@ -76,8 +74,8 @@ const Hero = () => {
             <div className="relative">
               <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl animate-glow-pulse">
                 <img 
-                  src="/lovable-uploads/7e117324-bb70-4456-8130-465bd6991b03.png"
-                  alt="Tanmay Nihal Harwani - Data Science Consultant"
+                  src="/lovable-uploads/dea842d3-e21e-454f-9372-768f702b7a64.png"
+                  alt="Ansh Harwani - Product Management Professional"
                   className="w-full h-full object-cover object-top"
                 />
               </div>
