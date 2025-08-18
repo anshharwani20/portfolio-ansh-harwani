@@ -9,9 +9,9 @@ const Hero = () => {
           {/* Text Content */}
           <div className="space-y-6 animate-fade-in-up">
             <h1 className="text-5xl lg:text-7xl font-light hero-text leading-tight">
-              Ansh
+              ANSH
               <br />
-              <span className="font-normal">Harwani</span>
+              <span className="font-normal">HARWANI</span>
             </h1>
             
             <div className="space-y-2">
