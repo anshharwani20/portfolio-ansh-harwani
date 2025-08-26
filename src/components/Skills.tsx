@@ -4,25 +4,62 @@ import { Code, Database, Cloud, BarChart, Brain, Users } from "lucide-react";
 
 const Skills = () => {
   const skillCategories = [
+    // {
+    //   icon: <Code className="w-6 h-6" />,
+    //   title: "Programming Languages",
+    //   skills: ["SQL", "Python", "C/C++"]
+    // },
     {
-      icon: <Code className="w-6 h-6" />,
-      title: "Programming Languages",
-      skills: ["SQL", "Python", "C/C++"]
+      icon: <Brain className="w-6 h-6" />,
+      title: "Product Skills",
+      skills: [
+        "Metrics & Prioritization",
+        "Prototyping",
+        "Roadmapping",
+        "Agile & Scrum",
+        "User Research",
+        "Wireframing",
+        "User Experience (UX)",
+        "A/B Testing",
+        "Product Teardowns",
+        "PRD Writing",
+        "Market Research Analysis",
+      ]
     },
     {
       icon: <Database className="w-6 h-6" />,
       title: "Tools and Platforms",
-      skills: ["Jira", "Canva", "Google Analytics", "GitHub", "PowerBI", "Amazon QuickSight", "Lovable AI"]
-    },
-    {
-      icon: <Brain className="w-6 h-6" />,
-      title: "Product Skills",
-      skills: ["Prioritization", "Prototyping", "Roadmapping", "Agile & Scrum", "User Experience", "Market Research Analysis"]
+      skills: [
+        "Jira",
+        "Figma",
+        "Canva",
+        "Google Analytics",
+        "Microsoft Excel",
+        "PowerBI",
+        "Amazon QuickSight",
+        "Lovable AI",
+        "Notion",
+        "SQL",
+        "Slack",
+        "Confluence",
+        "Python",
+        "Mixpanel"
+      ]
     },
     {
       icon: <Users className="w-6 h-6" />,
       title: "Soft Skills",
-      skills: ["Stakeholder Management", "Data-Driven Decision Making", "User Empathy", "Problem Solving"]
+      skills: [
+        "Stakeholder Management",
+        "Data-Driven Decision Making",
+        "User Empathy",
+        "Problem Solving",
+        "Leadership",
+        "Cross-Functional Collaboration",
+        "Critical Thinking",
+        "Strategic Thinking",
+        "Conflict Resolution"
+      ]
     }
   ];
 
@@ -35,7 +72,7 @@ const Skills = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-primary-glow mx-auto mb-6"></div>
           <p className="subtitle-text text-lg max-w-2xl mx-auto">
-            A comprehensive toolkit for product management, strategic thinking, and data-driven decision making
+            Skills that power end-to-end Product Management and user-focused innovation
           </p>
         </div>
 
@@ -46,8 +83,8 @@ const Skills = () => {
               className="bg-card/50 backdrop-blur-sm border-border card-shadow hover:border-primary/30 transition-all duration-300 hover:scale-105"
             >
               <CardHeader className="pb-4">
-                <CardTitle className="flex items-center gap-3 text-lg hero-text">
-                  <div className="p-2 bg-primary/20 rounded-lg text-primary">
+                <CardTitle className="flex items-center gap-3 text-xl hero-text">
+                  <div className="p-2 bg-primary/20 rounded-lg text-primary text-xl">
                     {category.icon}
                   </div>
                   {category.title}

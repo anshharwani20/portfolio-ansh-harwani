@@ -1,3 +1,5 @@
+
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Linkedin, Mail, Github } from "lucide-react";
@@ -19,7 +21,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="text-xl font-bold hero-text">
-            Tanmay Harwani
+            Ansh Harwani
           </div>
 
           {/* Desktop Navigation */}
@@ -38,23 +40,23 @@ const Header = () => {
           {/* Social Links */}
           <div className="hidden md:flex items-center space-x-4">
             <a
-              href="https://linkedin.com/in/tanmay-harwani"
+              href="https://linkedin.com/in/ansh-harwani"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
             >
               <Linkedin size={20} />
             </a>
-            <a
-              href="https://github.com/Tanmay-Harwani"
+            {/* <a
+              href="https://github.com/ansh-Harwani"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
             >
               <Github size={20} />
-            </a>
+            </a> */}
             <a
-              href="mailto:tanmay22@bu.edu"
+              href="mailto:ansh22@bu.edu"
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
             >
               <Mail size={20} />
@@ -89,7 +91,7 @@ const Header = () => {
             </nav>
             <div className="flex items-center space-x-4 mt-4">
               <a
-                href="https://linkedin.com/in/tanmay-harwani"
+                href="https://linkedin.com/in/ansh-harwani"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors duration-300"
@@ -97,7 +99,7 @@ const Header = () => {
                 <Linkedin size={20} />
               </a>
               <a
-                href="https://github.com/Tanmay-Harwani"
+                href="https://github.com/ansh-Harwani"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors duration-300"
@@ -105,7 +107,7 @@ const Header = () => {
                 <Github size={20} />
               </a>
               <a
-                href="mailto:tanmay22@bu.edu"
+                href="mailto:ansh22@bu.edu"
                 className="text-muted-foreground hover:text-primary transition-colors duration-300"
               >
                 <Mail size={20} />

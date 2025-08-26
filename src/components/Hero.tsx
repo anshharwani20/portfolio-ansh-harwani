@@ -5,13 +5,11 @@ const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative z-10 pt-20">
       <div className="container mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="flex gap-20 items-center">
           {/* Text Content */}
           <div className="space-y-6 animate-fade-in-up">
-            <h1 className="text-5xl lg:text-7xl font-light hero-text leading-tight">
-              ANSH
-              <br />
-              <span className="font-normal">HARWANI</span>
+            <h1 className="text-5xl lg:text-7xl  hero-text leading-tight">
+              <span>Hey, I am</span> ANSH HARWANI
             </h1>
             
             <div className="space-y-2">
@@ -22,19 +20,19 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
-              <Button 
+              {/* <Button 
                 size="lg" 
                 className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium px-8 py-3 rounded-lg transition-all duration-300 hover:scale-105 glow"
                 onClick={() => window.open('https://www.linkedin.com/in/ansh-harwani', '_blank')}
               >
                 <Eye className="mr-2" size={20} />
                 View My Work
-              </Button>
+              </Button> */}
               <Button 
                 variant="outline" 
                 size="lg"
                 className="border-primary text-primary hover:bg-primary hover:text-primary-foreground font-medium px-8 py-3 rounded-lg transition-all duration-300 hover:scale-105"
-                onClick={() => window.open('#', '_blank')}
+                onClick={() => window.open('https://drive.google.com/file/d/1Q4bwBiVixGAMGWkdRvuzCcaG_uC-9HMk/view?usp=sharing', '_blank')}
               >
                 <Download className="mr-2" size={20} />
                 Download Resume

@@ -5,6 +5,7 @@ import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
+import Education from "@/components/Education";
 
 const Index = () => {
   return (
@@ -14,8 +15,9 @@ const Index = () => {
       <main className="relative z-10">
         <Hero />
         <About />
-        <Skills />
         <Projects />
+        <Skills />
+        <Education />
         <Contact />
       </main>
     </div>

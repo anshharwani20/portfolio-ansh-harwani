@@ -1,23 +1,34 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 
 const Projects = () => {
   const projects = [
     {
-      title: "Mental Wellness Tracker for Professionals",
-      description: "Designed a wellness app prototype, informed by 10+ user interviews on emotional health and motivation. Shaped 5+ features like lock-screen widgets, streak rewards and adaptive check-ins to enhance engagement. Led surveys and persona building to capture user aspirations and built features by combining insights and metrics.",
-      technologies: ["User Research", "Prototyping", "Feature Design"],
-      highlights: ["10+ user interviews", "5+ features designed", "Engagement-focused", "User-centered design"],
-      liveDemo: "Apr 2025"
+      title: "Wellnest - Mental Wellness Tracker for Professionals",
+      description: "WellNest is a mental wellness app prototype designed to address the low adoption of existing wellness apps, which many busy professionals find time-consuming and difficult to maintain. Based on 10+ user interviews, I created four personas and mapped user flows to design a solution centered around 30-second emotional check-ins, streak rewards, and smart nudges. This approach reduced friction, built engaging habits, and aimed to improve long-term retention and emotional well-being.",
+      protoType: "Prototype",
+      caseStudy: "Case Study",
+      twoButtons: "True"
     },
     {
-      title: "Recipe Cup App Teardown | Design & Product Enhancement",
-      description: "Conducted survey with 50+ millennials, designed a new onboarding flow, reducing drop-off rates. Created subscription meal plans and categorized menus, improving navigation and increasing retention by 25%. Integrated personalized features, driving user engagement and increasing click-through rates by 40%.",
-      technologies: ["User Research", "Product Analysis", "UX Design"],
-      highlights: ["50+ user surveys", "25% retention increase", "40% CTR improvement", "Personalization"],
-      liveDemo: "Oct 2024"
+      title: "CredPe - Behavioral Nudging in UPI App",
+      description: "CredPe is a UPI app prototype designed to tackle the problem of delayed credit card bill payments caused by forgetfulness, procrastination, and untimely reminders. Based on 30+ user responses and interviews, I defined four personas, mapped pain points, and prioritized solutions using an impact–effort matrix. The prototype introduced behavior-driven features like smart reminders, consequence framing, and gamified streak rewards, making timely payments effortless and rewarding while aiming to boost trust, engagement, and repayment consistency.",
+      protoType: "Prototype",
+      caseStudy: "Case Study",
+      twoButtons: "True"
+    },
+    {
+      title: "Recipe Cup App Teardown - Design & Product Enhancement",
+      description: "Recipe Cup aimed to bridge food lovers with home chefs but struggled with high drop-offs, poor navigation, and low engagement. To address this, I surveyed 30+ users and redesigned the journey by simplifying onboarding with flexible login options, introducing subscription meal plans, categorizing menus by meal times, and adding personalized recommendations and chef profiles. These changes streamlined the experience, cutting onboarding drop-offs, improving retention by 25%, and driving a 40% increase in click-through rates through richer personalization.",
+      caseStudy: "Case Study",
+      twoButtons: "False"
+    },
+    {
+      title: "Swiggy Product Teardown - Retention Strategy",
+      description: "Swiggy is India's leading food delivery app, but its retention rate remains limited as most users order only on weekends or special occasions. To address this, I mapped five key friction points in the daily ordering flow and designed three habit-forming MVPs including SnackPass, Smart Work Lunch Program, and Ghar ka Khaana to improve consistency. Using the RICE framework for prioritization and wireframing solutions, these features were projected to boost weekday retention by 30% and improve NPS assumptions by 25%.",
+      caseStudy: "Case Study",
+      twoButtons: "False"
     }
   ];
 
@@ -26,7 +37,7 @@ const Projects = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-light hero-text mb-4">
-            Projects
+            Product Work
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-primary-glow mx-auto mb-6"></div>
           <p className="subtitle-text text-lg max-w-2xl mx-auto">
@@ -34,56 +45,39 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-1 gap-8">
+        <div className="grid lg:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <Card 
               key={index} 
-              className="bg-card/50 backdrop-blur-sm border-border card-shadow hover:border-primary/30 transition-all duration-300"
+              className="bg-card/50 backdrop-blur-sm border-border card-shadow hover:border-primary/30 transition-all duration-300 flex flex-col"
             >
               <CardHeader>
                 <CardTitle className="text-2xl hero-text mb-2">{project.title}</CardTitle>
               </CardHeader>
-              <CardContent className="space-y-6">
-                <p className="body-text text-lg leading-relaxed">
+
+              {/* Make content stretch */}
+              <CardContent className="flex flex-col flex-grow">
+                <p className="body-text text-lg leading-relaxed mb-6">
                   {project.description}
                 </p>
 
-                {/* Technologies */}
-                <div>
-                  <h4 className="subtitle-text font-medium mb-3">Technologies Used:</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {project.technologies.map((tech, techIndex) => (
-                      <Badge
-                        key={techIndex}
-                        className="bg-primary/20 text-primary border-primary/30"
-                      >
-                        {tech}
-                      </Badge>
-                    ))}
-                  </div>
-                </div>
-
-                {/* Key Highlights */}
-                <div>
-                  <h4 className="subtitle-text font-medium mb-3">Key Highlights:</h4>
-                  <div className="grid sm:grid-cols-2 gap-2">
-                    {project.highlights.map((highlight, highlightIndex) => (
-                      <div key={highlightIndex} className="flex items-center gap-2">
-                        <span className="w-2 h-2 bg-primary rounded-full"></span>
-                        <span className="body-text">{highlight}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                {/* Action Buttons */}
-                <div className="flex gap-4 pt-4">
+                {/* Action Buttons (pushed to bottom) */}
+                <div className="flex gap-4 pt-4 mt-auto">
+                  {project.twoButtons == "True" && (
+                    <Button 
+                      variant="ghost" 
+                      className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                    >
+                      <ExternalLink className="mr-2" size={16} />
+                      {project.protoType}
+                    </Button>
+                  )}
                   <Button 
-                    variant="outline" 
+                    variant="ghost" 
                     className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
                   >
-                    <ExternalLink className="mr-2" size={16} />
-                    Completed {project.liveDemo}
+                    <ExternalLink className="mr-1" size={16} />
+                    {project.caseStudy}
                   </Button>
                 </div>
               </CardContent>
