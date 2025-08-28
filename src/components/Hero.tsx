@@ -3,15 +3,19 @@ import { Download, Eye } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative z-10 pt-20">
+    <section
+      id="home"
+      className="min-h-screen flex items-center justify-center relative z-10 pt-20"
+    >
       <div className="container mx-auto px-6">
-        <div className="flex gap-20 items-center">
+        <div className="flex justify-between items-center">
           {/* Text Content */}
           <div className="space-y-6 animate-fade-in-up">
-            <h1 className="text-5xl lg:text-7xl  hero-text leading-tight">
-              <span>Hey, I am</span> ANSH HARWANI
+            <h1 className="text-5xl lg:text-6xl  hero-text leading-tight">
+              <span className="text-primary">Hey, I am</span>{" "}
+              <span className="text-white font-bold">ANSH HARWANI</span>
             </h1>
-            
+
             <div className="space-y-2">
               <p className="text-xl lg:text-2xl text-primary font-medium">
                 Product Management | AI | Business Strategy
@@ -28,11 +32,16 @@ const Hero = () => {
                 <Eye className="mr-2" size={20} />
                 View My Work
               </Button> */}
-              <Button 
-                variant="outline" 
+              <Button
+                variant="outline"
                 size="lg"
                 className="border-primary text-primary hover:bg-primary hover:text-primary-foreground font-medium px-8 py-3 rounded-lg transition-all duration-300 hover:scale-105"
-                onClick={() => window.open('https://drive.google.com/file/d/1Q4bwBiVixGAMGWkdRvuzCcaG_uC-9HMk/view?usp=sharing', '_blank')}
+                onClick={() =>
+                  window.open(
+                    "https://drive.google.com/file/d/1Q4bwBiVixGAMGWkdRvuzCcaG_uC-9HMk/view?usp=sharing",
+                    "_blank"
+                  )
+                }
               >
                 <Download className="mr-2" size={20} />
                 Download Resume
@@ -41,24 +50,24 @@ const Hero = () => {
 
             {/* Contact Info */}
             <div className="flex flex-wrap gap-6 pt-4">
-              <a 
-                href="mailto:harwaniansh@gmail.com" 
+              <a
+                href="mailto:harwaniansh@gmail.com"
                 className="flex items-center gap-2 body-text hover:text-primary transition-colors duration-300"
               >
                 <span className="w-2 h-2 bg-primary rounded-full"></span>
                 Email
               </a>
-              <a 
-                href="https://www.linkedin.com/in/ansh-harwani" 
-                target="_blank" 
+              <a
+                href="https://www.linkedin.com/in/ansh-harwani"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 body-text hover:text-primary transition-colors duration-300"
               >
                 <span className="w-2 h-2 bg-primary rounded-full"></span>
                 LinkedIn
               </a>
-              <a 
-                href="tel:+917987424118" 
+              <a
+                href="tel:+917987424118"
                 className="flex items-center gap-2 body-text hover:text-primary transition-colors duration-300"
               >
                 <span className="w-2 h-2 bg-primary rounded-full"></span>
@@ -71,7 +80,7 @@ const Hero = () => {
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
               <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl animate-glow-pulse">
-                <img 
+                <img
                   src="/lovable-uploads/dea842d3-e21e-454f-9372-768f702b7a64.png"
                   alt="Ansh Harwani - Product Management Professional"
                   className="w-full h-full object-cover object-top"
