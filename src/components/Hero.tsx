@@ -7,8 +7,8 @@ const Hero = () => {
       id="home"
       className="min-h-screen flex items-center justify-center relative z-10 pt-20"
     >
-      <div className="container mx-auto px-6">
-        <div className="flex justify-between items-center">
+      <div className=" mx-auto px-6">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className="space-y-6 animate-fade-in-up">
             <h1 className="text-5xl lg:text-6xl  hero-text leading-tight">
