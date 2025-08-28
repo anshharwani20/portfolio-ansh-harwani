@@ -1,5 +1,3 @@
-
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Linkedin, Mail, Github } from "lucide-react";
@@ -20,9 +18,7 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="text-xl font-bold hero-text">
-            Ansh Harwani
-          </div>
+          <div className="text-xl font-bold hero-text">Ansh Harwani</div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
@@ -56,7 +52,7 @@ const Header = () => {
               <Github size={20} />
             </a> */}
             <a
-              href="mailto:ansh22@bu.edu"
+              href="mailto:harwaniansh@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors duration-300"
             >
               <Mail size={20} />
