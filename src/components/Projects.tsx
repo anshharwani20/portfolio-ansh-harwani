@@ -74,9 +74,8 @@ const Projects = () => {
             Product Work
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-primary-glow mx-auto mb-6"></div>
-          <p className="subtitle-text text-lg max-w-2xl mx-auto">
-            Showcasing product management and design projects with real-world
-            impact
+          <p className="subtitle-text text-xl max-w-2xl mx-auto">
+            A collection of product thinking - from teardowns to prototypes.
           </p>
         </div>
 

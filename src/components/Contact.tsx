@@ -8,7 +8,7 @@ const Contact = () => {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
       value: "harwaniansh@gmail.com",
-      href: "mailto:harwaniansh@gmail.com",
+      href: "https://mail.google.com/mail/?view=cm&fs=1&to=harwaniansh@gmail.com",
     },
     {
       icon: <Phone className="w-6 h-6" />,
@@ -114,7 +114,7 @@ const Contact = () => {
                   size="lg"
                   className="bg-primary hover:bg-primary/90 text-primary-foreground font-medium px-8 py-3 rounded-lg transition-all duration-300 hover:scale-105 glow"
                   onClick={() =>
-                    window.open("mailto:harwaniansh@gmail.com", "_blank")
+                    window.open("https://mail.google.com/mail/?view=cm&fs=1&to=harwaniansh@gmail.com", "_blank")
                   }
                 >
                   <Mail className="mr-2" size={20} />
@@ -124,7 +124,7 @@ const Contact = () => {
                   variant="outline"
                   size="lg"
                   className="border-primary text-primary hover:bg-primary hover:text-primary-foreground font-medium px-8 py-3 rounded-lg transition-all duration-300 hover:scale-105"
-                  onClick={() => window.open("#", "_blank")}
+                  onClick={() => window.open("https://drive.google.com/file/d/15MWeaM5j7zMz7_bk-X2SMWX06Ukty78W/view?usp=sharing", "_blank")}
                 >
                   <Download className="mr-2" size={20} />
                   Download Resume
