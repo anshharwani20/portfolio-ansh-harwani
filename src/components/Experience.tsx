@@ -6,9 +6,24 @@ import { ExternalLink } from "lucide-react";
 const About = () => {
   const experience = [
     {
+      title: "Technical Program Management Intern",
+      company: "Morgan Stanley Capital International",
+      location: "Pune",
+      period: "Jan 2026 – Present",
+      companyUrl: "https://www.msci.com/",
+      url: null,
+      achievements: [
+        "Mapped the end-to-end custom index launch lifecycle across 7 stages, navigating multiple complex paths and collaborating with 10+ cross-functional teams.",
+        "Designed an AI automation roadmap identifying 12 launch lifecycle opportunities, prioritized by complexity, reducing projected cycle time by ~40%.",
+        "Built an AI agent that fully automates the spec form drafting process, reducing workflow time by 90%.",
+        "Developed an MCP server connecting the AI agent to MSCI’s IRP system, auto-fetching ~30 IRP fields and eliminating manual data entry.",
+        "Launched the Index Launch TPM Assistant, a custom GPT enabling program managers to lead index launch projects.",
+      ],
+    },
+    {
       title: "Product Management Intern",
       company: "OneAssist Consumer Solutions",
-      certificate: "Certificate",
+      location: "",
       period: "May 2025 - July 2025",
       companyUrl: "https://oneassist.in/",
       url: "https://drive.google.com/file/d/1K5vfIp20_sMgkomQr9xnAa0kQfq0Rt1l/view",
@@ -23,7 +38,7 @@ const About = () => {
     {
       title: "Product Management Intern",
       company: "Nani's Bilona Ghee",
-      certificate: "Certificate",
+      location: "",
       period: "Dec 2024 - Mar 2025",
       companyUrl: "https://www.nanibilonaghee.com/",
       url: "https://drive.google.com/file/d/1Qv38PlllBIrcSYvH58qUZaZxAMERSf5O/view",
@@ -60,24 +75,28 @@ const About = () => {
                     <h3 className="text-2xl font-semibold hero-text">
                       {exp.title}
                     </h3>
-                    <p>
+                    <div className="flex items-center gap-2 flex-wrap mt-1">
                       <a
                         href={exp.companyUrl}
                         target="_blank"
                         className="text-primary text-lg font-medium"
                       >
-                        {exp.company} |
+                        {exp.company}
                       </a>
-                      {/* <a href= " " className="text-primary text-lg font-medium">{exp.certificate} <ExternalLink className="mr-2" size={16} /></a> */}
-                      <Button
-                        variant="default"
-                        className="text-primary text-lg"
-                        onClick={() => window.open(exp.url, "_blank")}
-                      >
-                        Certificate
-                        <ExternalLink className="mr-2" size={10} />
-                      </Button>
-                    </p>
+                      {exp.location && (
+                        <span className="text-muted-foreground text-base">| {exp.location}</span>
+                      )}
+                      {exp.url && (
+                        <Button
+                          variant="default"
+                          className="text-primary text-lg"
+                          onClick={() => window.open(exp.url!, "_blank")}
+                        >
+                          Certificate
+                          <ExternalLink className="mr-2" size={10} />
+                        </Button>
+                      )}
+                    </div>
                   </div>
                   <Badge
                     variant="outline"

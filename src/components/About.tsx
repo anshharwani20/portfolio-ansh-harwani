@@ -20,36 +20,43 @@ const About = () => {
             <CardContent className="p-8">
               <div className="body-text leading-relaxed space-y-4 text-justify">
                 <p>
-                  I am Ansh Harwani, a Product enthusiast pursuing an Integrated
-                  BTech in Information Technology and MBA at IIITM Gwalior. My
-                  journey in Product Management began with a curiosity for how
-                  technology, design, and business come together to solve
-                  real-world problems. To sharpen my product sense, I explored
-                  product teardowns, built side projects, and wrote PRDs, which
-                  gave me a strong foundation before entering the professional
-                  space.
+                  I am Ansh Harwani, a Product enthusiast who recently graduated
+                  with an Integrated BTech in Information Technology and MBA
+                  from IIITM Gwalior. My journey in Product Management began with
+                  a curiosity for how technology, design, and business come
+                  together to solve real-world problems. To sharpen my product
+                  sense, I explored product teardowns, built side projects, and
+                  wrote PRDs, which gave me a strong foundation before entering
+                  the professional space.
                 </p>
                 <p>
-                  This foundation gave me the confidence to step into
-                  professional roles. I have Product Management internship
-                  experience at OneAssist and Nani's Bilona Ghee, where I
-                  contributed to innovative digital products in dynamic,
-                  fast-paced environments. Working within complete Agile
-                  systems, I gained hands-on exposure to end-to-end product
-                  development, from discovery and research to prototyping,
-                  roadmapping, and iteration.
+                  This foundation gave me the confidence to step into professional
+                  roles. I started with Product Management internships at Nani's
+                  Bilona Ghee and OneAssist, where I contributed to innovative
+                  digital products in dynamic, fast-paced environments. Working
+                  within complete Agile systems, I gained hands-on exposure to
+                  end-to-end product development, from discovery and research
+                  to prototyping, roadmapping, and iteration.
                 </p>
                 <p>
-                  Over time, I've developed a strong focus at the intersection
-                  of Product, strategy, and data. I enjoy applying user empathy,
+                  I am currently a Technical Program Management Intern at MSCI
+                  on the Index Team, working at the intersection of Product and
+                  AI. My work spans process design, AI automation, and building
+                  agentic tools that streamline complex workflows for
+                  cross-functional teams. I'll be wrapping up my internship in
+                  June before transitioning into my full-time role here.
+                </p>
+                <p>
+                  Over time, I've developed a strong focus at the intersection of
+                  Product, strategy, and AI. I enjoy applying user empathy,
                   market research, and prioritization frameworks to design
                   scalable solutions that deliver outcomes while keeping user
                   needs at the center.
                 </p>
                 <p>
-                  Beyond work, I stay active through basketball and fitness, and
-                  I enjoy exploring emerging tools, frameworks, and AI-driven
-                  solutions that connect technology with everyday life.
+                  Beyond work, I stay active through basketball and fitness,
+                  and I enjoy exploring emerging tools, frameworks, and
+                  AI-driven solutions that connect technology with everyday life.
                 </p>
               </div>
             </CardContent>

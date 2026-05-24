@@ -1,66 +1,65 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Code, Database, Cloud, BarChart, Brain, Users } from "lucide-react";
+import { Brain, Database, Cpu, Users } from "lucide-react";
 
 const Skills = () => {
   const skillCategories = [
-    // {
-    //   icon: <Code className="w-6 h-6" />,
-    //   title: "Programming Languages",
-    //   skills: ["SQL", "Python", "C/C++"]
-    // },
+    {
+      icon: <Cpu className="w-6 h-6" />,
+      title: "AI & GenAI",
+      skills: [
+        "Claude",
+        "ChatGPT",
+        "MCP Protocol",
+        "AI Agents",
+        "Prompt Engineering",
+        "Python",
+        "LLM Integration",
+        "Gemini",
+        "Perplexity",
+      ],
+    },
+    {
+      icon: <Database className="w-6 h-6" />,
+      title: "Tools & Technologies",
+      skills: [
+        "Jira",
+        "Confluence",
+        "Figma",
+        "GitHub",
+        "Google Analytics",
+        "PowerBI",
+        "SQL",
+        "Lovable AI",
+      ],
+    },
     {
       icon: <Brain className="w-6 h-6" />,
       title: "Product Skills",
       skills: [
-        "Metrics & Prioritization",
+        "Product Roadmap",
+        "PRDs",
         "Prototyping",
-        "Roadmapping",
         "Agile & Scrum",
         "User Research",
-        "Wireframing",
-        "User Experience (UX)",
         "A/B Testing",
-        "Product Teardowns",
-        "PRD Writing",
-        "Market Research Analysis",
-      ]
-    },
-    {
-      icon: <Database className="w-6 h-6" />,
-      title: "Tools and Platforms",
-      skills: [
-        "Jira",
-        "Figma",
-        "Canva",
-        "Google Analytics",
-        "Microsoft Excel",
-        "PowerBI",
-        "Amazon QuickSight",
-        "Lovable AI",
-        "Notion",
-        "SQL",
-        "Slack",
-        "Confluence",
-        "Python",
-        "Mixpanel"
-      ]
+        "GTM",
+        "Prioritization",
+        "Product Strategy"
+      ],
     },
     {
       icon: <Users className="w-6 h-6" />,
       title: "Soft Skills",
       skills: [
         "Stakeholder Management",
-        "Data-Driven Decision Making",
+        "Cross-functional Leadership",
+        "Data-Driven Decision-Making",
         "User Empathy",
+        "Communication",
         "Problem Solving",
-        "Leadership",
-        "Cross-Functional Collaboration",
-        "Critical Thinking",
-        "Strategic Thinking",
-        "Conflict Resolution"
-      ]
-    }
+      ],
+    },
   ];
 
   return (
@@ -76,10 +75,11 @@ const Skills = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* Two columns per row */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {skillCategories.map((category, index) => (
-            <Card 
-              key={index} 
+            <Card
+              key={index}
               className="bg-card/50 backdrop-blur-sm border-border card-shadow hover:border-primary/30 transition-all duration-300 hover:scale-105"
             >
               <CardHeader className="pb-4">

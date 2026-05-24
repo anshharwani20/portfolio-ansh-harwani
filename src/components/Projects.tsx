@@ -7,7 +7,8 @@ const Projects = () => {
     {
       title: "Wellnest - Mental Wellness Tracker for Professionals",
       description:
-        "WellNest is a mental wellness app prototype designed to address the low adoption of existing wellness apps, which many busy professionals find time-consuming and difficult to maintain. Based on 10+ user interviews, I created four personas and mapped user flows to design a solution centered around 30-second emotional check-ins, streak rewards, and smart nudges. This approach reduced friction, built engaging habits, and aimed to improve long-term retention and emotional well-being.",
+        "Designed a mental wellness app based on 10+ user interviews, featuring 30-second emotional check-ins, streak rewards, and smart nudges to reduce friction and boost long-term retention for busy professionals.",
+      image: "/lovable-uploads/wellnest.png",
       protoType: "Prototype",
       protoTypeLink: "https://indian-wellbeing-hub.lovable.app/welcome",
       caseStudy: "Case Study",
@@ -18,7 +19,8 @@ const Projects = () => {
     {
       title: "CredPe - Behavioral Nudging in UPI App",
       description:
-        "CredPe is a UPI app prototype designed to tackle the problem of delayed credit card bill payments caused by forgetfulness, procrastination, and untimely reminders. Based on 30+ user responses and interviews, I defined four personas, mapped pain points, and prioritized solutions using an impact–effort matrix. The prototype introduced behavior-driven features like smart reminders, consequence framing, and gamified streak rewards, making timely payments effortless and rewarding while aiming to boost trust, engagement, and repayment consistency.",
+        "Built a UPI prototype addressing delayed credit card payments through behavior-driven features—smart reminders, consequence framing, and gamified streaks—based on 30+ user responses to boost timely repayment.",
+      image: "/lovable-uploads/credpe.png",
       protoType: "Prototype",
       protoTypeLink: "https://credpe-pay-smartly-now.lovable.app/",
       caseStudy: "Case Study",
@@ -29,7 +31,8 @@ const Projects = () => {
     {
       title: "Recipe Cup App Teardown - Design & Product Enhancement",
       description:
-        "Recipe Cup aimed to bridge food lovers with home chefs but struggled with high drop-offs, poor navigation, and low engagement. To address this, I surveyed 30+ users and redesigned the journey by simplifying onboarding with flexible login options, introducing subscription meal plans, categorizing menus by meal times, and adding personalized recommendations and chef profiles. These changes streamlined the experience, cutting onboarding drop-offs, improving retention by 25%, and driving a 40% increase in click-through rates through richer personalization.",
+        "Surveyed 30+ users to redesign Recipe Cup's journey—simplified onboarding, subscription meal plans, and personalized recommendations—cutting drop-offs and boosting click-through rates by 40%.",
+      image: "/lovable-uploads/recipecup.png",
       caseStudy: "Case Study",
       caseStudyLink:
         "https://www.figma.com/deck/rFe5F6aOzcmh2fUoBEOg0g/Recipe-Cup%3A-Product-Teardown?node-id=1-26&t=K9rK1uQxeFkeHWON-1",
@@ -38,7 +41,8 @@ const Projects = () => {
     {
       title: "Swiggy Product Teardown - Retention Strategy",
       description:
-        "Swiggy is India's leading food delivery app, but its retention rate remains limited as most users order only on weekends or special occasions. To address this, I mapped five key friction points in the daily ordering flow and designed three habit-forming MVPs including SnackPass, Smart Work Lunch Program, and Ghar ka Khaana to improve consistency. Using the RICE framework for prioritization and wireframing solutions, these features were projected to boost weekday retention by 30% and improve NPS assumptions by 25%.",
+        "Mapped 5 friction points in Swiggy's daily ordering flow and designed 3 habit-forming MVPs (SnackPass, Smart Work Lunch, Ghar ka Khaana) projected to boost weekday retention by 30%.",
+      image: "/lovable-uploads/swiggy.png",
       caseStudy: "Case Study",
       caseStudyLink:
         "https://drive.google.com/file/d/1neUW6M_iqDnoElVx4jTVNdIyIrDHlKxQ/view?usp=sharing",
@@ -47,8 +51,8 @@ const Projects = () => {
     {
       title: "FitTrack – Product Requirements Document",
       description:
-        "FitTrack is a fitness-tracking app PRD created to address declining daily active users (DAU) and reduced session length. I developed a strategy to increase DAU by 20% and boost session length by 15% through personalized content, gamified challenges, community interaction, and in-app rewards. To guide design, I built detailed user personas, mapped user stories, and specified technical requirements such as AI/ML-based recommendations, wearable device integrations, and OAuth 2.0 authentication. The PRD also included design and non-functional requirements for scalability, accessibility, and security. Critical edge cases like dietary restrictions, score normalization in leaderboards, content moderation, and therapeutic workout needs were addressed to ensure inclusivity, fairness, and a seamless user experience.",
-      protoType: "Prototype",
+        "Wrote a comprehensive PRD for a fitness app targeting 20% DAU growth via AI recommendations, gamified challenges, wearable integrations, and community features, covering edge cases for inclusivity and fairness.",
+      image: "/lovable-uploads/fittrack.png",
       caseStudy: "Case Study",
       caseStudyLink:
         "https://admitted-mongoose-a0a.notion.site/FitTrack-PRD-76848692542049bda685912ce1afb718",
@@ -57,8 +61,8 @@ const Projects = () => {
     {
       title: "Stockgrow – Product Strategy & Roadmap",
       description:
-        "Stockgrow is a fintech platform prototype designed to address low participation in investing, where over 70% of young adults lack formal financial education and are influenced by misleading content creators. Through analysis of user pain points, we designed solutions such as SEBI-verified creator onboarding, AI-driven monitoring to reduce misinformation by 40%, and virtual cash trading that allowed users to practice with zero financial risk. Personalized learning paths and portfolio-based recommendations aimed to increase user retention by 30%. The roadmap spanned from beta testing and referral incentives in the short term to integrating cryptocurrency and launching an in-house brokerage within five years, building a scalable model driven by subscription, referral, and platform fee revenues.",
-      protoType: "Prototype",
+        "Designed a fintech platform with SEBI-verified creators, AI misinformation monitoring, and virtual cash trading—targeting 30% user retention growth with a 5-year roadmap including crypto and in-house brokerage.",
+      image: "/lovable-uploads/stockgrow.png",
       caseStudy: "Case Study",
       caseStudyLink:
         "https://drive.google.com/file/d/1AyQIlYbFvBEBU8p69pJsJRcGOswOoHG7/view",
@@ -74,65 +78,96 @@ const Projects = () => {
             Product Work
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-primary-glow mx-auto mb-6"></div>
-          <p className="subtitle-text text-xl max-w-2xl mx-auto">
-            A collection of product thinking - from teardowns to prototypes.
+          <p className="subtitle-text text-lg max-w-2xl mx-auto">
+            Showcasing product management and design projects with real-world
+            impact
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8">
-          {projects.map((project, index) => (
-            <Card
-              key={index}
-              className="bg-card/50 backdrop-blur-sm border-border card-shadow hover:border-primary/30 transition-all duration-300 flex flex-col"
-            >
-              <CardHeader>
-                <CardTitle className="text-2xl hero-text mb-2">
-                  {project.title}
-                </CardTitle>
-              </CardHeader>
+        <div className="space-y-12 w-full max-w-4xl mx-auto">
+          {projects.map((project, index) => {
+            const isEven = index % 2 === 0;
+            return (
+              <Card
+                key={index}
+                className={`bg-card/50 backdrop-blur-sm border-border card-shadow hover:border-primary/30 transition-all duration-300 flex flex-col md:flex-row overflow-hidden w-full ${
+                  isEven ? "" : "md:flex-row-reverse"
+                }`}
+              >
+                {/* Left/Right Content */}
+                <div className="flex flex-col justify-between p-6 lg:p-8 md:w-1/2">
+                  <div>
+                    <CardHeader className="p-0 mb-3">
+                      <CardTitle className="text-2xl font-light hero-text leading-snug">
+                        {project.title}
+                      </CardTitle>
+                    </CardHeader>
+                    <CardContent className="p-0">
+                      <p className="body-text text-sm lg:text-base leading-relaxed text-muted-foreground">
+                        {project.description}
+                      </p>
+                    </CardContent>
+                  </div>
 
-              {/* Make content stretch */}
-              <CardContent className="flex flex-col flex-grow">
-                <p className="body-text text-lg leading-relaxed mb-6">
-                  {project.description}
-                </p>
-
-                {/* Action Buttons (pushed to bottom) */}
-                <div className="flex gap-4 pt-4 mt-auto">
-                  {project.twoButtons == "True" && (
+                  {/* Action Buttons */}
+                  <div className="flex gap-4 pt-2">
+                    {project.twoButtons === "True" && (
+                      <Button
+                        variant="ghost"
+                        className="border-primary text-primary hover:bg-primary hover:text-primary-foreground h-9 text-sm"
+                        onClick={() =>
+                          window.open(
+                            project.protoTypeLink,
+                            "_blank",
+                            "noopener,noreferrer"
+                          )
+                        }
+                      >
+                        <ExternalLink className="mr-2" size={14} />
+                        {project.protoType}
+                      </Button>
+                    )}
                     <Button
                       variant="ghost"
-                      className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                      className="border-primary text-primary hover:bg-primary hover:text-primary-foreground h-9 text-sm"
                       onClick={() =>
                         window.open(
-                          project.protoTypeLink,
+                          project.caseStudyLink,
                           "_blank",
                           "noopener,noreferrer"
                         )
                       }
                     >
-                      <ExternalLink className="mr-2" size={16} />
-                      {project.protoType}
+                      <ExternalLink className="mr-1" size={14} />
+                      {project.caseStudy}
                     </Button>
-                  )}
-                  <Button
-                    variant="ghost"
-                    className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                    onClick={() =>
-                      window.open(
-                        project.caseStudyLink,
-                        "_blank",
-                        "noopener,noreferrer"
-                      )
-                    }
-                  >
-                    <ExternalLink className="mr-1" size={16} />
-                    {project.caseStudy}
-                  </Button>
+                  </div>
                 </div>
-              </CardContent>
-            </Card>
-          ))}
+
+                {/* Right/Left Image Container */}
+                <div className={`relative w-full md:w-1/2 min-h-[220px] md:min-h-0 overflow-hidden border-t md:border-t-0 border-border flex ${
+                  isEven ? "md:border-l" : "md:border-r"
+                }`}>
+                  {project.images ? (
+                    project.images.map((imgUrl, imgIdx) => (
+                      <img
+                        key={imgIdx}
+                        src={imgUrl}
+                        alt={`${project.title} screenshot ${imgIdx + 1}`}
+                        className="w-1/2 h-full object-cover object-top transition-transform duration-500 hover:scale-105"
+                      />
+                    ))
+                  ) : (
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="w-full h-full object-cover object-top transition-transform duration-500 hover:scale-105"
+                    />
+                  )}
+                </div>
+              </Card>
+            );
+          })}
         </div>
       </div>
     </section>
